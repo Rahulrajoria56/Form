@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="left">
+        <div id="logo-div">
+            <img id="odin-img" src="./Images/odin-lined.png" alt="odin-logo">
+            <p id="logo-text">ODIN</p>
+        </div>
+        <p class="credit-text">Photo by
+            <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a>on
+            <a href="https://unsplash.com" target="_blank">Unsplash</a>
+        </p>
+    </section>
+    <section class="right">
+        <div id="header">
+            <p class="header-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p class="header-text">You know you want to.</p>
+        </div>
+        <div id="form-div">
+           <p id="lets-do">Let's do this!</p>
+           <form action="#" method="get">
+                <div class="input-div">
+                    <div class="input-container">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" pattern="[a-zA-Z]*">
+                    </div>
+                    <div class="input-container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="input-container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                </div>
+                <div class="input-div">
+                    <div class="input-container">
+                        <label for="last-name"> LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" pattern="[a-zA-Z]*">
+                    </div>
+                    <div class="input-container">
+                        <label for="phone-num">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-num" minlength="10" maxlength="10" pattern="[6789][0-9]{9}">
+                    </div>
+                    <div class="input-container">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
+                </div>
+           </form>
+        </div>
+        <button>Create Account</button>
+        <p id="log-in-text">Already have an account? <a id="log-in" href="#" target="_blank" rel="noopener noreferrer">Log In</a></p>     
+    </section>    
+</body>
+</html>
